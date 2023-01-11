@@ -1,0 +1,7 @@
+resnset 배경설명
+
+1. 이전까지 층이 깊어질수록 더 좋은 성능을 내는 걸 확인함
+2. 무작정 늘리면 더 좋을지 실험하는데, 학습이 잘 안됨
+   (원인은 gradient vanishing or exploding)
+3. 이걸 해결할 수 있는 방법으로 residual laerning을 제안함
+   (residual learning : 이전 층의 결과를 이용하는 것)
